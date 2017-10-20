@@ -1,0 +1,121 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  height:100%;
+  width:100%;
+}
+.main{
+  margin:0 auto;
+  text-align: center;
+  width:825px;
+}
+
+.header{
+text-align: center;
+font-size: 13px;
+background-color: #FE7E00;
+color:white;
+}
+.header p{
+  display: inline-block;
+  padding-right: 230px;
+  text-transform: uppercase;
+}
+
+.header sup{
+  font-size:7px;
+}
+.header ul{
+  display: inline-block;
+}
+.header li{
+  display: inline-block;
+  padding:15px;
+  text-transform: uppercase;
+  color:white;
+}
+.body{
+  background-color: #FAFAFA;
+}
+.orangeimg{
+  /*padding-right: 170px;*/
+  display: inline-block;
+}
+.orangeimg img{
+  height:250px;
+  width:250px;
+  margin-right: 286px;
+}
+.content{
+  display: inline-block;
+}
+.searchbox{
+  position: relative;
+  bottom: 135px;
+  right: 60px;
+}
+
+.searchbox input{
+  background-color:#F1F1F1;
+  width: 190px;
+  border: none;
+  height: 36px;
+  color:red;
+}
+
+.icon{
+  position: relative;
+  right: 23px;
+}
+
+.paragraph{
+  position:relative;
+  bottom:95px;
+  right: 70px;
+
+}
+.paragraph p{
+  color:#CB4A13;
+
+}
+.orange{
+  color:#FE7E00;
+}
+
+.paragraph sup{
+  font-size:7px;
+}
+
+.button{
+  position:relative;
+  bottom:40px;
+}
+#button1{
+  position: relative;
+  right: 85px;
+  width: 110px;
+  bottom: 35px;
+  background-color: #FE7E00;
+  color: white;
+  font-size: 10px;
+  height: 26px;
+}
+#button2{
+  position: relative;
+  right: 36px;
+  width: 143px;
+  bottom: 35px;
+  background-color: #7ACCC8;;
+  color: white;
+  font-size: 10px;
+  height: 26px;
+}
+
+.footer{
+  height:50px;
+  background-color: #7ACCC8;
+}
