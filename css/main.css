@@ -5,12 +5,14 @@
 }
 
 body{
+  margin-top:44px;
   height:100%;
   width:100%;
 }
+
 .main{
   margin:0 auto;
-  text-align: center;
+  /*text-align: center;*/
   width:825px;
 }
 
@@ -20,11 +22,13 @@ font-size: 13px;
 background-color: #FE7E00;
 color:white;
 }
+
 .header p{
   display: inline-block;
   padding-right: 230px;
   text-transform: uppercase;
 }
+
 
 .header sup{
   font-size:7px;
@@ -38,18 +42,22 @@ color:white;
   text-transform: uppercase;
   color:white;
 }
+
 .body{
   background-color: #FAFAFA;
 }
+
 .orangeimg{
   /*padding-right: 170px;*/
   display: inline-block;
 }
+
 .orangeimg img{
   height:250px;
   width:250px;
   margin-right: 286px;
 }
+
 .content{
   display: inline-block;
 }
@@ -76,6 +84,7 @@ color:white;
   position:relative;
   bottom:95px;
   right: 70px;
+  font-family:'Raleway', sans-serif;
 
 }
 .paragraph p{
@@ -94,6 +103,7 @@ color:white;
   position:relative;
   bottom:40px;
 }
+
 #button1{
   position: relative;
   right: 85px;
@@ -104,6 +114,7 @@ color:white;
   font-size: 10px;
   height: 26px;
 }
+
 #button2{
   position: relative;
   right: 36px;
@@ -119,3 +130,107 @@ color:white;
   height:50px;
   background-color: #7ACCC8;
 }
+
+/* MEDIA QUERIES */
+
+/* Laptop Display */
+@media screen and (max-width: 1088px) {
+
+/*nothing to do*/
+}
+
+/* Tablet Display */
+@media only screen and (max-width: 768px) {
+  .header p{
+        padding-right: 215px;
+      }
+}
+@media only screen and (max-width:768px)
+  {
+.header
+    {
+      text-align:left;
+      }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .orangeimg img
+  {
+      margin-right: 205px;
+  }
+}
+/* Smartphone Display */
+@media screen and (max-width: 480px) {
+
+.header p{
+      padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width:480px)
+  {
+.header
+    {
+      font-size: 9px;
+      text-align:left;
+      }
+}
+
+@media only screen and (max-width: 480px)
+{
+  .orangeimg img
+  {
+    height: 250px;
+    width: 145px;
+    margin-right: 95px;
+
+  }
+}
+
+@media only screen and (max-width:480px) {
+  #button2{
+    right:55px;
+  }
+}
+
+/*Iphone 6+*/
+/*----------------------------------------------------------------------------*/
+@media only screen and (max-width:415px)
+{
+  .header p{
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width:415px)
+{
+  .header
+  {
+    font-size: 8px;
+    text-align:left;
+    }
+}
+@media only screen and (max-width: 415px)
+{
+  .orangeimg img
+  {
+    height: 250px;
+    width: 170px;
+    margin-right: 80px;
+    text-align: left;
+  }
+}
+@media only screen and (max-width:415px) {
+  #button1{
+    width:90px;
+  }
+}
+
+@media only screen and (max-width:415px) {
+  #button2{
+    right:65px;
+    width:118px;
+  }
+}
+/*---------------------------------------------------------------*/
